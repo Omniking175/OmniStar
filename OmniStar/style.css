@@ -9,9 +9,12 @@ html{
 }
 
 body{
-    background:hsl(123, 100%, 88%);
+    background:rgb(200, 119, 247);
     color:#fff;
     line-height:1.8;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
 }
 
 .container{
@@ -64,7 +67,7 @@ nav a{
 nav a:hover{
     color:rgb(253, 254, 254);
     background:rgb(1, 13, 119);
-    padding:5px 10px;
+    padding:2.5px 5px;
 }
 
 .first-section{
@@ -72,22 +75,55 @@ nav a:hover{
     justify-content:center;
     align-items:center;
     text-align:center;
-    margin-top:470px;
-    margin-bottom:5px;
+    margin-top:none;
+    margin-bottom:0px;
+    position:relative;
+    overflow:hidden;
+    min-height:88vh;
+    background-image: url(Images/background-image.png);
 }
 
 .first-div{
-    Background:rgb(0, 164, 27);
-    text-align:center;
-    justify-content:center;
-    align-items:center;
+    width: 600px;
+    height: 540px;
+    position: absolute;
+    left: 765px;
+    bottom: -300px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: radial-gradient(circle at top right,rgba(93, 0, 255, 0.54),transparent 10%),
+    radial-gradient(circle at bottom left,rgba(60, 0, 255, 0.412),transparent 15%),
+    linear-gradient(135deg,#d400ff,#da00da,#8800b5);;
 }
 
 .first-div h1{
-    font-size:50px;
-    font-weight: 250;
-    font-style: normal;
-    text-align:center;
-    align-items:center;
-    justify-content:center;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    color:yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-div h2{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background-div{
+    position: absolute;
+    top: 180px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
 }
