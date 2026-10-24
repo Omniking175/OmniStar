@@ -81,6 +81,7 @@ nav a:hover{
     overflow:hidden;
     min-height:88vh;
     background-image: url(Images/background-image.png);
+    border-bottom: 2px solid yellow;
 }
 
 .first-div{
@@ -126,4 +127,109 @@ nav a:hover{
     width: 450px;
     height: 450px;
     object-fit: cover;
+}
+
+.second-section{
+    display:grid;
+    margin-top:none;
+    margin-bottom:0px;
+    position:relative;
+    overflow:hidden;
+    min-height:88vh;
+}
+
+#about{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+    top: 30px;
+    left: 690px;
+    border: 5px groove;
+    padding: 3px 7.5px 3px 7.5px;
+    border-radius: 16.5px;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#bb00e0;
+    background-color: white;
+}
+
+.myself{
+    position: absolute;
+    left: 150px;
+    top:200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 5px groove;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    color:#d400ff;
+    border-radius: 45px;
+    padding: 30px 190px 380px 360px;
+}
+
+.myself h1 {
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 220px;
+}
+
+.myself p{
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 10px;
+    top:90px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.languages{
+    position: absolute;
+    right: 160px;
+    top:200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     border: 5px groove;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    color:#d400ff;
+    border-radius: 45px;
+    padding: 30px 360px 380px 140px;
+}
+.languages h1 {
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    right: 120px;
+}
+
+.languages p{
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 30px;
+    top:120px;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
