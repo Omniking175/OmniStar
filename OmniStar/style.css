@@ -243,6 +243,7 @@ nav a:hover{
     position:relative;
     overflow:hidden;
     min-height:88vh;
+     border-bottom: 2px solid yellow;
 }
 
 #projects{
@@ -300,6 +301,83 @@ nav a:hover{
 }
 
 .grid1 img:hover{
+    transform:scale(1.05);
+    transition: ease(0.8s);
+    border-color:#a2ff00;
+}
+
+
+
+ 
+
+.forth-section{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top:none;
+    margin-bottom:0px;
+    position:relative;
+    overflow:hidden;
+    min-height:88vh;
+     border-bottom: 2px solid yellow;
+}
+
+#social{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+    top: 30px;
+    left: 700px;
+    border: 6px groove;
+    padding: 5px 10px 5px 10px;
+    border-radius: 16.5px;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#bb00e0;
+    background-color: white;
+}
+
+
+.roster a{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 190px;
+    margin-left:40px;  
+}
+
+.roster img{
+    height: auto;
+    width: 420px;
+    border-radius: 25px;
+    border: 3.5px solid white;
+}
+
+.roster1 a{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+.roster1 img{
+    height: auto;
+    width: 420px;
+    border-radius: 25px;
+    border: 3.5px solid white;
+}
+
+.roster img:hover{
+    transform:scale(1.05);
+    transition: ease(0.8s);
+    border-color:#a2ff00;
+}
+
+.roster1 img:hover{
     transform:scale(1.05);
     transition: ease(0.8s);
     border-color:#a2ff00;
