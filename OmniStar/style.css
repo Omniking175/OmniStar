@@ -17,6 +17,13 @@ body{
     padding:0;
 }
 
+.logo1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    -webkit-text-stroke: 1px white;
+    color: navy;
+}
+
 .container{
     width:90%;
     max-width:1200px;
@@ -59,15 +66,17 @@ nav a{
     color:rgb(1, 13, 119);
     text-decoration:none;
     transition:.3s;
-    font-size:20px;
+    font-size:25px;
     font-weight:bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 0.9px white;
 }
 
 nav a:hover{
     color:rgb(253, 254, 254);
     background:rgb(1, 13, 119);
     padding:2.5px 5px;
+    border-radius: 15px;
 }
 
 .first-section{
@@ -92,6 +101,7 @@ nav a:hover{
     bottom: -300px;
     transform: translateX(-50%);
     border-radius: 50%;
+    border: 2px solid yellow;
     background: radial-gradient(circle at top right,rgba(93, 0, 255, 0.54),transparent 10%),
     radial-gradient(circle at bottom left,rgba(60, 0, 255, 0.412),transparent 15%),
     linear-gradient(135deg,#d400ff,#da00da,#8800b5);;
@@ -102,6 +112,7 @@ nav a:hover{
     margin-top: 60px;
     margin-bottom: 5px;
     color:yellow;
+    text-shadow: 0 0 10px navy;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -110,6 +121,7 @@ nav a:hover{
     margin-top: 10px;
     margin-bottom: 5px;
     color:yellow;
+    text-shadow: 0 0 10px navy;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -381,4 +393,18 @@ nav a:hover{
     transform:scale(1.05);
     transition: ease(0.8s);
     border-color:#a2ff00;
+}
+
+.hi{
+    position: absolute;
+    top: 10px;
+    font-size: 55px;
+    left: 412px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+     text-shadow: 0 0 40px #ffffff, 0 0 100px rgb(255, 255, 255);
+    -webkit-text-stroke: 1.2px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
