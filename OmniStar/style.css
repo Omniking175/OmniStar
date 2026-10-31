@@ -408,3 +408,121 @@ nav a:hover{
     -webkit-text-stroke: 1.2px black;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+
+.fifth-section{
+    margin-top:none;
+    margin-bottom:0px;
+    position:relative;
+    overflow:hidden;
+    min-height:100vh;
+    border-bottom: 2px solid yellow;
+}
+
+
+
+#contact{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    border: 6px groove;
+    padding: 5px 10px 5px 10px;
+    border-radius: 16.5px;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#bb00e0;
+    background-color: white;
+}
+
+
+
+.page{
+    position: absolute;
+    left: 150px;
+    top:200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 5px groove;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    color:#d400ff;
+    border-radius: 45px;
+    padding: 30px 190px 400px 360px;
+}
+
+.page h1 {
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 165px;
+}
+
+.page p{
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 30px;
+    top:90px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+
+.email{
+    position: absolute;
+    right: 160px;
+    top:200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     border: 5px groove;
+    border-top-color: #d400ff;
+    border-bottom-color: yellow;
+    border-left-color: #d400ff;
+    border-right-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    color:#d400ff;
+    border-radius: 45px;
+    padding: 30px 360px 380px 140px;
+}
+
+
+
+.email h1 {
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    right: 21px;
+    font-size: 35px;
+}
+
+
+
+.email p{
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    left: 30px;
+    top:120px;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
